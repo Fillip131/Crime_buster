@@ -20,18 +20,19 @@ public class PauseMenuButtony : MonoBehaviour
             {
                 pauseMenu.SetActive(true);
             }
-        }
+            Time.timeScale = 1f;
+        } 
     }
 
     public void ButtonResume()
     {
-        //Time.timeScale = 1f;
+        Time.timeScale = 1f;
         pauseMenu.SetActive(false);
     }
 
     public void ButtonBackToMainMenu()
     {
-        //Time.timeScale = 1f;
+        Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
 }

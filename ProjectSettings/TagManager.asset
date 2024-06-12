@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PlayerBullet
+  - EnemyBullet
+  - AmmoBox
+  - Rukojmi
+  - Enemy
+  - Blood
+  - MedKit
+  - DroppedWeapon
   layers:
   - Default
   - TransparentFX
@@ -11,7 +19,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - wall
   - 
   - 
   - 
@@ -40,4 +48,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 3994979321
+    locked: 0
+  - name: door7
+    uniqueID: 1919062707
     locked: 0
